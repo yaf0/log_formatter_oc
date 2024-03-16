@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='log_formatter_oc',
-    version='0.4',
+    version='0.4.5',
     description='log formatting utility',
     license="MIT",
     author="ocean",
@@ -31,5 +31,7 @@ setup(
     install_requires=[
         'requests',
         'numpy',
+        'log-formatter-ocean',
+        'huluwa-art',
     ]
 )
